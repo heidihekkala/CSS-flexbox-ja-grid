@@ -1,0 +1,51 @@
+.box {
+  background-color: rgb(88, 148, 142);
+  padding: 20px;
+  border: 5px solid black;
+  margin: 10px;
+  width: 220px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  background-color: rgb(202, 234, 223);
+  border: 1px solid black;
+  width: 450px;
+  margin: 0 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 70px;
+}
+
+a:hover {
+  background-color: rgb(202, 210, 223);
+}
+
+.grid-container {
+  display: grid;
+  color: white;
+  background-color: rgb(74, 106, 88);
+  border: 3px solid black;
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.grid-item {
+  display: flex;
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
